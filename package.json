@@ -31,7 +31,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/AlexVentura/file_uploader.git"
+    "url": "git://github.com/AlexVentura/file_uploader_sails.git"
   },
   "author": "Alejandro Ventura",
   "license": ""
