@@ -9,7 +9,7 @@
 
 	/**
 	 * `FileController.upload()`
-	 *
+	 * POST http://localhost:1337/file/upload
 	 * Upload file(s) to the server's disk.
 	 */
 
@@ -22,7 +22,8 @@
 		// Node defaults to 2 minutes.
 		res.setTimeout(0);
 
-		req.file('filepath')
+		// Parametro que se envia en la peticion post
+		req.file('attachedFile')
 		.upload({
 
 		  // You can apply a file upload limit (in bytes)

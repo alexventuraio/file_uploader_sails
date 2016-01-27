@@ -20,12 +20,13 @@ setTimeout(function sunrise () {
         <p>Don't worry, we've got your back.</p> -->
         <ul class="getting-started">
             <li>
+                <h3>La peticion es POST (/file/upload) el parametro es <code>attachedFile</code></h3><br>
                 <form action="file/upload" method="post" enctype="multipart/form-data">
                     <label>Some other metadata</label>
                     <input type="text" name="foo" placeholder="some other metadata"/>
                     <br/>
                     <label>Please upload your avatar:</label>
-                    <input type="file" name="avatar"/>
+                    <input type="file" name="attachedFile"/>
                     <br/>
                     <br/>
                     <input type="submit"/>
